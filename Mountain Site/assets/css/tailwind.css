@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-neutral-100 dark:bg-neutral-800 transition-colors
+}
+
+body * {
+    font-family: "Poppins";
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: 100% 38rem;
+    background-image: url(https://i.pinimg.com/564x/e4/40/58/e44058737122d70c6499c9b6a17174f7.jpg);
+}
+
+
+@layer components {
+
+}
